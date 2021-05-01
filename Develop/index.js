@@ -104,7 +104,12 @@ function writeToFile(answers) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    promptUser()
+    .then((answers) => writeFileAsync('README.md', writeToFile(answers)))
+    .then(() => console.log('Successfully wrote to README.md'))
+    .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
