@@ -7,7 +7,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
-
 const promptUser = () => {
     return inquirer.prompt ([
         {
@@ -31,20 +30,11 @@ const promptUser = () => {
             message: 'Write a short description of your project.',
         },
         {
-            type: 'checkbox',
+            type: 'rawlist',
             message: 'What license should your project have?',
             name: 'license',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            choices: ['MIT', 'Apache', 'GNU', 'ISC', 'None'],
         },
-        // {
-        //     type: 'input',
-        //     name: 'installation',
-        //     message: 'What command should be run to install dependencies?',
-        //     default: npm i,
-        //     when: (answers) => {
-        //         return !fs.existsSync(npm i)
-        //     }
-        // }
         {
             type: 'input',
             name: 'test_command',
@@ -67,6 +57,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const writeFileAsync = util.promisify(fs.writeFile);
 
+
 // TODO: Create a function to initialize app
 
 function init() {
@@ -75,13 +66,6 @@ function init() {
     .then(() => console.log('Successfully created!'))
     .catch((err) => console.error(err)); 
 };
-
-// const init = () => {
-//     promptUser()
-//         .then((data) => writeFileAsync('README.md', writeToFile(data)))
-//         .then(() => console.log('Successfully wrote to README.md'))
-//         .catch((err) => console.error(err));
-// };
 
 // Function call to initialize app
 init();
