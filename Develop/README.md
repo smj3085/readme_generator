@@ -1,9 +1,9 @@
 
-  # d
+  # Hello World
 
   # Good ReadMe Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
   #### Table of Contents
   * [Project Description](#project-description)
@@ -15,22 +15,23 @@
   * [Questions](#questions)
 
   # Project Description 
-  * f
+  * is this working yet? 
 
   # Installation Instructions
 
   # Usage Guidelines
-  * d
-
-  # License
-  * This project is licensed under the MIT
-
-  # Contribution Guidelines
-  * g
-
-  # Test Instructions
   * s
 
+  # License
+  * This project is licensed under the GPL 3.0.
+  For further information, visit this link (https://www.gnu.org/licenses/gpl-3.0).
+
+  # Contribution Guidelines
+  * s
+
+  # Test Instructions
+  * asjhb
+
   # Questions
-  If you have any questions about the repom contact me directly at s. 
-  You can find more of my work at [g](http://github.com/g).
+  If you have any questions about the repom contact me directly at hellow@world. 
+  You can find more of my work at [smj3o085](http://github.com/smj3o085).

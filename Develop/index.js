@@ -30,10 +30,10 @@ const promptUser = () => {
             message: 'Write a short description of your project.',
         },
         {
-            type: 'rawlist',
+            type: 'list',
             message: 'What license should your project have?',
             name: 'license',
-            choices: ['MIT', 'Apache', 'GNU', 'ISC', 'None'],
+            choices: ['MIT', 'Apache', 'GPL 3.0', 'ISC', 'None'],
         },
         {
             type: 'input',
