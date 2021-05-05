@@ -22,12 +22,17 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'project_title',
-            message: 'Enter your project title?',
+            message: 'Enter your project title.',
         },
         {
             type: 'input',
             name: 'description',
-            message: 'Write a short description of your project.',
+            message: 'Provide a short description of your project.',
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'What are the steps required to install your project?',
         },
         {
             type: 'list',
@@ -43,7 +48,12 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'What does the user need to know about using the repo?',
+            message: 'Provide instructions and examples for use.',
+        },
+        {
+            type: 'input',
+            name: 'credits',
+            message: 'List your collaborators, including any tutorials used.',
         },
         {
             type: 'input',
