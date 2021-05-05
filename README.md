@@ -20,8 +20,10 @@ node index.js
 https://smj3085.github.io/readme_generator/
 
 ## Screenshot
+![img](screenshot.png)
 
 ## Video demonstration
+See link for demo: https://drive.google.com/file/d/1w6hNg3JpVHy4CIFtZ4_TiT_RllZfajb0/view
 
 ## Questions
   If you have any questions about the repo, email me on stephaniemjlee@gmail.com. <br>

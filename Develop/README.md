@@ -1,9 +1,9 @@
 
-  # a
+  # Readme generator
 
   # Good ReadMe Generator
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   #### Table of Contents
   * [Project Description](#project-description)
@@ -15,27 +15,27 @@
   * [Questions](#questions)
 
   ## Project Description 
-  * a
+  * Create a professional looking readme file
 
   ## Installation Instructions
-  * a
+  * npm i
 
   ## Usage Guidelines
-  * d
+  * See video demonstration
 
   ## License
-  * This project is licensed under the APACHE 2.0. </br>
-  For further information, visit the following link (https://opensource.org/licenses/Apache-2.0).
+  * This project is licensed under the MIT. </br>
+  For further information, visit the following link (https://opensource.org/licenses/MIT).
 
   ## Credits
-  * f
+  * sm3085
 
   ## Contribution Guidelines
-  * a
+  * All contributions welcome! 
 
   ## Test Instructions
-  * s
+  * npm test
 
   ## Questions
-  If you have any questions about the repo, contact me directly at a. </br>
-  You can find more of my work at [test](http://github.com/test).
+  If you have any questions about the repo, contact me directly at smj3085@hotmail.com. </br>
+  You can find more of my work at [smj3085](http://github.com/smj3085).
