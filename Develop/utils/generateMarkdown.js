@@ -57,29 +57,29 @@ function generateMarkdown(data) {
   * [Test Instructions](#test-instructions)
   * [Questions](#questions)
 
-  # Project Description 
+  ## Project Description 
   * ${data.description}
 
-  # Installation Instructions
+  ## Installation Instructions
   * ${data.installation}
 
-  # Usage Guidelines
+  ## Usage Guidelines
   * ${data.usage}
 
-  # License
+  ## License
   * This project is licensed under the ${data.license}. </br>
   For further information, visit the following link ${renderLicenseLink(data.license)}.
 
-  # Credits
+  ## Credits
   * ${data.credits}
 
-  # Contribution Guidelines
+  ## Contribution Guidelines
   * ${data.contributions}
 
-  # Test Instructions
+  ## Test Instructions
   * ${data.test_command}
 
-  # Questions
+  ## Questions
   If you have any questions about the repo, contact me directly at ${data.email}. </br>
   You can find more of my work at [${data.github_username}](http://github.com/${data.github_username}).`;
 }
